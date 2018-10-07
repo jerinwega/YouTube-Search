@@ -1,0 +1,29 @@
+@media screen and (max-width : 768px) {
+
+.pos{
+    display: none;
+}
+.text-justify{
+    width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.media-heading{
+    width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.media-object{
+width: 110px;
+height:90px;
+}
+.pull-right{
+
+    position:absolute;
+    top: 50px;
+
+}
+
+}

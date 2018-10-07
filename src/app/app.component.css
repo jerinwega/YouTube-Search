@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+.jumbotron {
+    background-color: lightgray;
+}
+
+h1 {
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+hr {
+
+    height: 1px;
+    color: #ff0000;
+    background-color: #ff0000;
+    border: none;
+}
+
+form {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+input {
+    background-color: transparent;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#searchButton {
+    border: 1px solid lightgray;
+    color: black;
+    height: 50px;
+    width: 100px;
+    font-weight: bold;
+    background-color: lightgray;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 16px;
+    transition: 1s;
+
+}
+
+#searchButton:hover {
+    color: white;
+    background-color: #ff0000;
+    font-weight: bold;
+}
+
+span {
+    font-weight: bold;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.pull-right {
+    padding-left: 10px;
+}
+
+
+.sort:hover {
+    background-color: lightgray;
+}
+
+#error {
+    color: #ff0000;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+.dropdown {
+    font-family: 'Oswald', sans-serif;
+
+
+
+}
+
+.btn {
+    border-radius: 20px;
+    border: 2px solid lightgray;
+    background-color: lightgray;
+
+}
+
+.sort {
+
+    text-decoration: none;
+    transition: 1s;
+}
+
+.sort:hover {
+    color: white;
+    background-color: #ff0000;
+}
+
+.btn-toggle.btn-lg {
+    margin: 0 5rem;
+    padding: 0;
+    position: relative;
+    border: none;
+    height: 2.5rem;
+    width: 5rem;
+    border-radius: 2.5rem;
+}
+
+.btn-toggle.btn-lg:focus,
+.btn-toggle.btn-lg.focus,
+.btn-toggle.btn-lg:focus.active,
+.btn-toggle.btn-lg.focus.active {
+    outline: none;
+}
+
+.btn-toggle.btn-lg:before,
+.btn-toggle.btn-lg:after {
+    line-height: 2.5rem;
+    width: 5rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 0;
+    transition: opacity 0.25s;
+}
+
+.btn-toggle.btn-lg:before {
+    content: "Light";
+    left: -5rem;
+}
+
+.btn-toggle.btn-lg:after {
+    content: "Dark";
+    right: -5rem;
+    opacity: 0.5;
+}
+
+.btn-toggle.btn-lg > .handle {
+    position: absolute;
+    top: 0.3125rem;
+    left: 0.3125rem;
+    width: 1.875rem;
+    height: 1.875rem;
+    border-radius: 1.875rem;
+    background: #fff;
+    transition: left 0.25s;
+}
+
+.btn-toggle.btn-lg.active {
+    transition: background-color 0.25s;
+}
+
+.btn-toggle.btn-lg.active > .handle {
+    left: 2.8125rem;
+    transition: left 0.25s;
+}
+
+.btn-toggle.btn-lg.active:before {
+    opacity: 0.5;
+}
+
+.btn-toggle.btn-lg.active:after {
+    opacity: 1;
+}
+
+.btn-toggle.btn-lg.btn-sm:before,
+.btn-toggle.btn-lg.btn-sm:after {
+    line-height: 0.5rem;
+    color: #fff;
+    letter-spacing: 0.75px;
+    left: 0.6875rem;
+    width: 3.875rem;
+}
+
+.btn-toggle.btn-lg.btn-sm:before {
+    text-align: right;
+}
+
+.btn-toggle.btn-lg.btn-sm:after {
+    text-align: left;
+    opacity: 0;
+}
+
+.btn-toggle.btn-lg.btn-sm.active:before {
+    opacity: 0;
+}
+
+.btn-toggle.btn-lg.btn-sm.active:after {
+    opacity: 1;
+}
+
+.btn-toggle.btn-lg.btn-xs:before,
+.btn-toggle.btn-lg.btn-xs:after {
+    display: none;
+}
+
+.btn-toggle.btn-secondary {
+    color: #6b7381;
+    background: #bdc1c8;
+}
+
+.btn-toggle.btn-secondary:before,
+.btn-toggle.btn-secondary:after {
+    color: red;
+}
+
+.btn-toggle.btn-secondary.active {
+    background-color: #ff0000;
+}
+
+body.light-mode {
+
+    background-color: #ffffff;
+
+}
+
+.pos {
+    position: relative;
+    top: -150px;
+}
+
+
+body.dark-mode {
+
+    background-color: #282828;
+
+}
+
+body.dark-mode #search {
+    color: white;
+    font-weight: bold;
+}
+
+body.dark-mode h1 {
+    color: white;
+}
+
+body.dark-mode .jumbotron {
+    background-color: #282828;
+}
+
+body.dark-mode #searchButton {
+    background-color: white;
+}
+
+body.dark-mode #searchButton:hover {
+    background-color: #ff0000;
+}
+
+body.dark-mode .pull-right {
+    color: white;
+}
+
+body.dark-mode .text-justify {
+    color: lightgray;
+}
