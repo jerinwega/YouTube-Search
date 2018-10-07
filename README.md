@@ -10,6 +10,7 @@ Install Docker - https://docs.docker.com/install/
 docker pull jerinwega/youtubesearch
 docker run -it -p 3000:3000 jerinwega/youtubesearch:latest
 ```
+Navigate to http://localhost:3000
 
 ### Method 2 - Without Docker (Tested only in Mac)
 Install node v10
