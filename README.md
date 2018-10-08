@@ -7,8 +7,8 @@ Angular2 UI for YouTube v3 API
 ### Method 1 - With Docker 
 Install Docker - https://docs.docker.com/install/
 ```
-docker pull jerinwega/youtubesearch
-docker run -it -p 3000:3000 jerinwega/youtubesearch:latest
+docker pull jerinwega/youtube-search
+docker run -it -p 3000:3000 jerinwega/youtube-search:latest
 ```
 Navigate to http://localhost:3000
 
